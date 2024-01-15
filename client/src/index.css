@@ -1,0 +1,70 @@
+.user_chats {
+  margin-left: 30px;
+}
+
+.card__user_chats_box {
+  border: 1px solid black;
+  background: #151414;
+}
+
+.card__user_chats_box .ant-card-head-title h4 {
+  color: aliceblue;
+  margin: 0 auto;
+}
+
+.card__user_chats_box .ant-card-body {
+  overflow: scroll;
+  height: 65vh;
+}
+
+
+.card__user_chats_box .ant-card-body::-webkit-scrollbar {
+  display: none;
+}
+.card__user_chats_box .ant-card-actions {
+  margin: 0 !important;
+  background: black !important;
+}
+
+.card__user_chats_box .user_chat_input input {
+  background: #163434 !important;
+  border: none;
+  margin-left: 15px;
+  color: aliceblue;
+}
+
+.card__user_chats_box .user_chat_input input::placeholder {
+  color: aliceblue;
+}
+
+.card__user_chats_box .user_chat_input__button {
+  background: black !important;
+  margin-left: 15px;
+}
+
+.ul__list_messages {
+  list-style-type: none;
+}
+
+.ul__list_messages__item_context {
+  width: 200px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ul__list_messages__item_context span {
+  color: aliceblue !important;
+}
+
+.item_context_left {
+  background: #2d3131;
+}
+
+.item_context_right {
+  background: #5e5ee5;
+  /*margin-right: 15px;*/
+}
+
+.chat_input {
+}
